@@ -204,6 +204,48 @@ section{
   font-size: 3rem;
 }
 
+.about .row .content{
+  flex: 1 1 42rem;
+}
+
+.about .row .content .title{
+  color: var(--main-color);
+  font-size: 3rem;
+  line-height: 1.8;
+}
+
+.about .row .content p{
+  color: var(--main-color);
+  font-size: 1.5rem;
+  line-height: 1.8;
+  padding: 1rem 0;
+}
+
+.about .row .content .icons-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: 1rem;
+  padding-top: 3rem;
+}
+
+.about .row .content .icons-container .icons{
+  flex: 1 1 15rem;
+  padding: 1.5rem;
+  text-align: center;
+  border: var(--border);
+  border-radius: 85% 15% 94% 6% / 25% 79% 21% 75% ;
+}
+
+.about .row .content .icons-container .icons img{
+  height: 5rem;
+}
+
+.about .row .content .icons-container .icons h3{
+  font-size: 1.7rem;
+  padding-top: 1rem;
+  color: var(--main-color);
+}
+
 
 
 
