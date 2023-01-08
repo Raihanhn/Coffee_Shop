@@ -155,11 +155,59 @@ section{
   transform: translateY(-2rem);
 }
 
-
-
-
-
-
-
-
 /* --------------------------------Home END-------------------------------- */
+
+
+/* --------------------------------ABOUT START-------------------------------- */
+.about .row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.about .row .image{
+  flex: 1 1 42rem;
+}
+
+.about .row .image img{
+  width: 100%;
+  animation: aboutImage 4s linear infinite;
+}
+@keyframes aboutImage{
+  0%,100%{
+    transform: scale(.9);
+    border-radius: var(--border-radious-hover);
+  }
+  50%{
+    transform: scale(.8);
+    border-radius: 50%;
+  }
+}
+
+.heading{
+  font-size: 9rem;
+  text-transform: uppercase;
+  color: rgba(107, 92, 92, 0.507);
+  letter-spacing: .2rem;
+  text-align: center;
+  position: relative;
+}
+
+.heading span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  color: var(--main-color);
+  font-size: 3rem;
+}
+
+
+
+
+
+
+
+/* --------------------------------ABOUT END-------------------------------- */
