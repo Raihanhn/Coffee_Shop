@@ -1,9 +1,20 @@
 import React from 'react'
-import img1 from "../../src/assets/image/home-img-1.png"
-import img2 from "../../src/assets/image/home-img-2.png"
-import img3 from "../../src/assets/image/home-img-3.png"
+import { useState } from 'react';
 
 const Home = () => {
+
+    const imgs=[
+        {id:0,value:"../../src/assets/image/home-img-1.png"},
+        {id:1,value:"../../src/assets/image/home-img-2.png"},
+        {id:2,value:"../../src/assets/image/home-img-3.png"}
+    ];
+    const [sliderData,setSliderData] = useState(imgs[0])
+    const handleClick=(index)=>{
+        console.log(index);
+        const slider=imgs[index];
+        setSliderData(slider);
+    }
+
   return (
     <div className='aka'>
         <section className='home' id='home'>
@@ -13,14 +24,15 @@ const Home = () => {
                     <a href="#" className='btn'> Buy one now</a>
                 </div>
                 <div className="image">
-                    <img src={img1} alt="" className='main-home-image' />
+                    <img src={sliderData.value} alt="" className='main-home-image' />
                 </div>
             </div>
 
             <div className="image-slider">
-                <img src={img1} alt="" />
-                <img src={img2} alt="" />
-                <img src={img3} alt="" />
+                {
+                    imgs.map((data,i)=>
+                    <img key={data.id} src={data.value} onClick={()=>handleClick(i)} /> )
+                }
             </div>
 
         </section>
