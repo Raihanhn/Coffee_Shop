@@ -1,6 +1,11 @@
 import React from 'react'
+import { useState } from 'react'
+import menus from "./menus.js"
+
 
 const Menu = () => {
+  const [data, setData] = useState(menus);
+
   return (
     <div className='aka' >
         <section className="menu" id="menu">
@@ -8,17 +13,23 @@ const Menu = () => {
 
             <div className="box-container">
 
-              <a href="#" className='box'>
-                <img src="" alt="" />
-                <div className="content">
-                  <h3>our special coffee</h3>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                  <span>$9.00</span>
-                </div>
-              </a>
 
+            {data.map((value) =>{
+                const {id, title, desc, price, image} = value;
 
-
+                return (
+                  <>
+                    <a href="#" className='box' key={id}>
+                      <img src={image} alt="" />
+                      <div className="content">
+                        <h3>{title} </h3>
+                        <p>{desc} </p>
+                        <span>${price} </span>
+                      </div>
+                    </a>
+                  </>
+                )
+            })}
             </div>
         </section>
     </div>
