@@ -4,6 +4,8 @@ import { ImStarFull } from 'react-icons/im';
 import { ImStarHalf } from 'react-icons/im';
 import reviews from "./reviews.js"
 import { Swiper, SwiperSlide } from 'swiper/react';
+import {  Pagination } from 'swiper';
+import 'swiper/css/pagination';
 import 'swiper/css';
 
 const Review = () => {
@@ -17,6 +19,7 @@ const Review = () => {
             <Swiper 
         
             spaceBetween={15}
+            pagination={{ clickable: true }}
             breakpoints={{
            1200: {
             slidesPerView: 2,
