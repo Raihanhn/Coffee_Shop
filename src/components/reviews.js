@@ -8,28 +8,28 @@ const reviews = [
     {
         id:1,
         desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, ducimus ",
-        name:"john doe",
+        name:"Abraham Adam",
         title:"satisfied client",
         image:img1
     },
     {
         id:2,
         desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, ducimus ",
-        name:"john doe",
+        name:"Ruth mayesha",
         title:"satisfied client",
         image:img2
     },
     {
         id:3,
         desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, ducimus ",
-        name:"john doe",
+        name:"Endarson lit",
         title:"satisfied client",
         image:img3
     },
     {
         id:4,
         desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, ducimus ",
-        name:"john doe",
+        name:"Enzy Rio",
         title:"satisfied client",
         image:img4
     }
