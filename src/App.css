@@ -394,11 +394,51 @@ section{
   resize: none;
 }
 
-
-
-
-
-
-
-
 /* --------------------------------BOOK END-------------------------------- */
+
+
+
+
+
+/* --------------------------------FOOTER START-------------------------------- */
+.footer .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(23rem,1fr));
+  gap: 1.5rem;
+}
+
+.footer .box-container .box h3{
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  color: var(--main-color);
+}
+
+.footer .box-container .box a{
+  display: block;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  color: var(--main-color);
+}
+
+.footer .box-container .box .lod:hover{
+  padding-right: 2rem;
+}
+
+.footer .credit{
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  margin-top: 1rem;
+  color: var(--main-color);
+}
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------FOOTER END-------------------------------- */
