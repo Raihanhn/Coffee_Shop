@@ -513,6 +513,10 @@ section{
   color: var(--main-color);
 }
 
+.navigation-menu li a:hover{
+  color: #EB89B5;
+}
+
 .hamburger {
   border: 0;
   height: 40px;
@@ -553,7 +557,7 @@ section{
 @media screen and (max-width: 768px) {
   .navigation-menu ul {
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: 0;
     flex-direction: column;
     width: 100%;
@@ -586,6 +590,17 @@ section{
   .navigation-menu.expanded ul {
     display: block;
   }
+}
+
+@media screen and (max-width: 378px) {
+  .navigation-menu.expanded ul {
+    display: block;
+  }
+  .navigation .btn{
+    margin-top: 0;
+    margin-left: 5rem;
+  }
+  
 }
 
 /* -------------------------------------NAVBAR CSS END----------------------------- */
