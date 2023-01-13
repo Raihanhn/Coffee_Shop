@@ -63,13 +63,13 @@ const Review = () => {
            
 
               {datas.map((value) =>{
-                const {id, title, desc, name, image} = value;
+                const {idk, title, desc, name, image} = value;
 
                 return (
                   <>
                        <SwiperSlide>
                        <div className="review-slider">
-                    <div className="box" key={id}>
+                    <div className="box" key={idk}>
                       <img src={image} alt="" />
                       <div className="stars">
                         <ImStarFull/>

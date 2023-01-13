@@ -15,16 +15,16 @@ const Menu = () => {
 
 
             {data.map((value) =>{
-                const {id, title, desc, price, image} = value;
+                const {id, titles, descs, prices, images} = value;
 
                 return (
                   <>
                     <a href="#" className='box' key={id}>
-                      <img src={image} alt="" />
+                      <img src={images} alt="" />
                       <div className="content">
-                        <h3>{title} </h3>
-                        <p>{desc} </p>
-                        <span>${price} </span>
+                        <h3>{titles} </h3>
+                        <p>{descs} </p>
+                        <span>${prices} </span>
                       </div>
                     </a>
                   </>

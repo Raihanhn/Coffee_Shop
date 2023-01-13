@@ -9,45 +9,45 @@ const menus = [
 
     {
         id:1,
-        title:"our special coffee",
-        desc:"coffee is very healthy and refreshing our mind ",
-        price :"8.10",
-        image:img1
+        titles:"our special coffee",
+        descs:"coffee is very healthy and refreshing our mind ",
+        prices :"8.10",
+        images:img1
     },
     {
         id:2,
-        title:"our special coffee",
-        desc:"coffee is very healthy and refreshing our mind",
-        price :"10.20",
-        image:img2
+        titles:"our special coffee",
+        descs:"coffee is very healthy and refreshing our mind",
+        prices :"10.20",
+        images:img2
     },
     {
         id:3,
-        title:"our special coffee",
-        desc:"coffee is very healthy and refreshing our mind",
-        price :"15.20",
-        image:img3
+        titles:"our special coffee",
+        descs:"coffee is very healthy and refreshing our mind",
+        prices :"15.20",
+        images:img3
     },
     {
         id:4,
-        title:"our special coffee",
-        desc:" coffee is very healthy and refreshing our mind ",
-        price :"5.99",
-        image:img4
+        titles:"our special coffee",
+        descs:" coffee is very healthy and refreshing our mind ",
+        prices :"5.99",
+        images:img4
     },
     {
         id:5,
-        title:"our special coffee",
-        desc:"coffee is very healthy and refreshing our mind",
-        price :"7.20",
-        image:img5
+        titles:"our special coffee",
+        descs:"coffee is very healthy and refreshing our mind",
+        prices :"7.20",
+        images:img5
     },
     {
         id:6,
-        title:"our special coffee",
-        desc:"coffee is very healthy and refreshing our mind",
-        price :"10.00",
-        image:img6
+        titles:"our special coffee",
+        descs:"coffee is very healthy and refreshing our mind",
+        prices :"10.00",
+        images:img6
     }
 
 ]
